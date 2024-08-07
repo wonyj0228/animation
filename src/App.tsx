@@ -1,9 +1,10 @@
+import Gesture from './Gesture';
 import Variant from './Variant';
 
 function App() {
   return (
     <>
-      <Variant />
+      <Gesture />
     </>
   );
 }

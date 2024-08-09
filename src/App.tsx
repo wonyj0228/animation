@@ -1,9 +1,9 @@
-import MotionValue from './Components/MotionValue';
+import Svg from './Components/Svg';
 
 function App() {
   return (
     <>
-      <MotionValue />
+      <Svg />
     </>
   );
 }

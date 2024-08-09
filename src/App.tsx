@@ -1,10 +1,9 @@
-import Gesture from './Gesture';
-import Variant from './Variant';
+import MotionValue from './Components/MotionValue';
 
 function App() {
   return (
     <>
-      <Gesture />
+      <MotionValue />
     </>
   );
 }

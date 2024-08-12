@@ -1,9 +1,9 @@
-import Svg from './Components/Svg';
+import Presence from './Components/Presence';
 
 function App() {
   return (
     <>
-      <Svg />
+      <Presence />
     </>
   );
 }

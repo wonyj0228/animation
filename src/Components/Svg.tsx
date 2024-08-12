@@ -28,8 +28,21 @@ const Variant: Variants = {
   end: {
     fill: 'rgba(255,255,255,0.8)',
     pathLength: 1,
+    // transition을 여기에 주면 모든 변화내용이 한번에 적용됨
   },
 };
+
+/**
+ * Line drawing
+ * svg 엘리먼트에 'pathLength', 'pathSpacing', 'pathOffset' 속성을 사용하여 Line drawing 애니메이션을 만들 수 있습니다.
+ 
+ * Path
+ * motion.path 컴포넌트는 세 가지 강력한 SVG path 속성인 pathLength, pathSpacing 및 pathOffset을 가지고 있습니다.
+ * 수동 경로 측정이 필요 없이 모두 0과 1 사이의 값으로 설정됩니다.
+
+ * Line drawing
+ * 선 그리기 애니메이션은 pathLength, pathSpacing 및 pathOffset의 세 가지 특수 속성을 사용하여 많은 SVG 요소로 만들 수 있습니다.
+ */
 
 const Svg = () => {
   return (

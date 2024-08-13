@@ -1,9 +1,10 @@
 import Presence from './Components/Presence';
+import Slider from './Components/Slider';
 
 function App() {
   return (
     <>
-      <Presence />
+      <Slider />
     </>
   );
 }

@@ -1,10 +1,9 @@
-import Presence from './Components/Presence';
-import Slider from './Components/Slider';
+import Layout from './Components/Layout';
 
 function App() {
   return (
     <>
-      <Slider />
+      <Layout />
     </>
   );
 }
